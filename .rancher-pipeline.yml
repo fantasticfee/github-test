@@ -2,9 +2,9 @@ stages:
 - name: aaaaaaaaa
   steps:
   - applyAppConfig:
-      catalogTemplate: cattle-global-data:example-nginx-ldapauth-proxy
+      catalogTemplate: cattle-global-data:a-nginx-ldapauth-proxy
       version: 0.1.2
-      name: nginx-ldapauth-proxy
+      name: nginx-ldapauth-proxy2
       targetNamespace: default
 timeout: 60
 notification: {}
